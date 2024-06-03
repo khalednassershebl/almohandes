@@ -1,0 +1,31 @@
+.projects-page {
+    .projects {
+        background: unset;
+    }
+}
+
+
+
+.one-project-page {
+    .one-project-container {
+        padding: 50px;
+        .text-editor {
+            h3 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .one-project-image {
+        margin: 25px 0;
+        figure {
+            height: 400px;
+            border-radius: 20px;
+            margin: 12px 6px;  
+            background: {
+                size: cover;
+                position: center center;
+                repeat: no-repeat;
+            }
+        }
+    }
+}

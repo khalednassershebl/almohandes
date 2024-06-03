@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Important Meta Tags -->
+    <meta name="author" content="" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Library Styles -->
+    <link rel="stylesheet" href="assets/scss/libs/bootstrap.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Page Title & Icon -->
+    <title>Home</title>
+    <link rel="shortcut icon" href="assets/images/logo2.png" />
+
+</head>
+
+<body>
+
+    <!-- ---- [ Start Header ] ---- -->
+
+    <nav class="navbar">
+
+        <div class="logo-links-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="assets/images/logo4.png" class="show-desktop" alt="logo">
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <ul class="list-unstyled">
+                    <li class="nav-link-active"><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about/about.html">من نحن</a></li>
+                    <li><a href="#">الأقسام</a></li>
+                    <li><a href="projects/projects.html">المشاريع</a></li>
+                    <li><a href="offers/offers.html">العروض</a></li>
+                    <li><a href="news/news.html">الأخبار</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-actions">
+
+            <div class="icon switch-langs">
+
+                <div class="hover-drop">
+                    <span>العربية</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z">
+                        </path>
+                    </svg>
+                    <div class="li-links">
+                        <ul class="list-unstyled">
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="social-links">
+                <a href="#0" class="links">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z" />
+                    </svg>
+                </a>
+                <a href="#0" class="links">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z" />
+                    </svg>
+                </a>
+                <a href="#0" class="links">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+                    </svg>
+                </a>
+
+                <a href="#0" class="links">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="nav-action">
+                <a href="contact/contact.html" class="nav-btn-fill">تواصل معنا</a>
+            </div>
+
+            <div class="icon nav-toggler">
+                <svg id="svg-grid" viewBox="0 0 20 20" preserveAspectRatio="xMinYMin meet">
+                    <path
+                        d="M7,0H2C0.896,0,0,0.895,0,2v5c0,1.104,0.896,2,2,2h5c1.104,0,2-0.896,2-2V2C9,0.895,8.104,0,7,0z M7,7H2V2h5V7z M7,11H2c-1.104,0-2,0.896-2,1.999v5C0,19.104,0.896,20,2,20h5c1.104,0,2-0.896,2-2.001v-5C9,11.896,8.104,11,7,11z M7,17.999H2v-5h5V17.999z M18,0h-5c-1.104,0-2,0.895-2,2v5c0,1.104,0.896,2,2,2h5c1.104,0,2-0.896,2-2V2C20,0.895,19.104,0,18,0z M18,7h-5V2h5V7z M18,11h-5c-1.104,0-2,0.896-2,1.999v5C11,19.104,11.896,20,13,20h5c1.104,0,2-0.896,2-2.001v-5C20,11.896,19.104,11,18,11z M18,17.999h-5v-5h5V17.999z">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <header class="header home-header">
+
+        <div class="overlay"></div>
+
+
+        <div class="header-content">
+
+            <div class="header-info">
+                <h1>
+                    <span class="gray-h1">كل شخص يستحق</span>
+                    <span class="fill">فرصة لراحة مطلقة</span>
+                </h1>
+                <p>عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية ويقول
+                    البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع </p>
+                <a href="contact/contact.html" class="btn-fill">انضم إلينا الأن</a>
+            </div>
+
+        </div>
+
+
+    </header>
+    <!-- ---- [ End Header ] ---- -->
+
+
+    <!-- ---- [ Start Content ] ---- -->
+
+    <div class="content">
+
+        <div class="about">
+            <div class="container">
+                <div class="row justify-content-center align-items-center px-3">
+
+                    <div class="col-lg-5">
+                        <div class="about-more-info">
+                            <p><span>من نحن</span></p>
+                            <h2>
+                                نحن نقدم لك أفضل
+                                <br />
+                                فرصة لامتلاك
+                                <span>عقار</span>
+                            </h2>
+                            <p>عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص
+                                النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع</p>
+                            <a href="about/about.html" class="btn-fill">تعرف علينا اكتر</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="about-img">
+
+                            <div class="about-img-bg"></div>
+
+                            <div class="about-img-1">
+                                <img src="assets/images/07.jpg" alt="about image">
+                            </div>
+
+                            <div class="about-img-2">
+                                <img src="assets/images/06.jpg" alt="about image">
+                            </div>
+
+                            <div class="about-img-3">
+                                <img src="assets/images/03.jpg" alt="about image">
+                            </div>
+
+                            <div class="about-img-4">
+                                <img src="assets/images/04.jpg" alt="about image">
+                            </div>
+
+                            <div class="about-img-5">
+                                <img src="assets/images/05.jpg" alt="about image">
+                            </div>
+
+                            <div class="about-card-fly">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="about-card-fly-info">
+                                    <h6>5.0</h6>
+                                    <span>معدل التقييم</span>
+                                </div>
+                            </div>
+
+                            <div class="about-card-fly2">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path
+                                            d="M13.0049 16.941V19.0029H18.0049V21.0029H6.00488V19.0029H11.0049V16.941C7.05857 16.4489 4.00488 13.0825 4.00488 9.00293V3.00293H20.0049V9.00293C20.0049 13.0825 16.9512 16.4489 13.0049 16.941ZM1.00488 5.00293H3.00488V9.00293H1.00488V5.00293ZM21.0049 5.00293H23.0049V9.00293H21.0049V5.00293Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="about-card-fly-info">
+                                    <h6>6.2K</h6>
+                                    <span>عميل سعيد</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="numbers">
+            <div class="container">
+                <div class="numbers-content">
+
+                    <div class="num-card">
+                        <span>سنين فى المجال</span>
+                        <h3>15+</h3>
+                    </div>
+
+                    <div class="num-card">
+                        <span>مشاريع مكتملة</span>
+                        <h3>500+</h3>
+                    </div>
+
+                    <div class="num-card">
+                        <span>أعضاء الفريق</span>
+                        <h3>120+</h3>
+                    </div>
+
+                    <div class="num-card">
+                        <span>رضا العملاء</span>
+                        <h3>99%</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sections">
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>
+                        أهم
+                        <span>عملاء</span>
+                        Al MOHANDES
+                    </h2>
+                    <p class="header-text">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع
+                        النصوص النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع</p>
+                </div>
+
+                <div class="sections-container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/01.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/02.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/03.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/04.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/05.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/06.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/07.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="partner-card">
+                                <img src="assets/images/partners/08.webp" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="container">
+
+                <div class="section-header-side">
+
+                    <div class="section-header-content">
+                        <h2>
+                            بعض من أفضل
+                            <span>مشاريعنا</span>
+                        </h2>
+                        <p class="header-text">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم
+                            وضع النصوص النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم</p>
+                    </div>
+
+                    <div class="section-header-actions">
+                        <a href="projects/projects.html" class="btn-fill">عرض كل المشاريع</a>
+                    </div>
+
+                </div>
+
+                <div class="projects-cards">
+                    <div class="row">
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/01.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>دي جويا ٣ العاصمة الادارية</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            العاصمة الادارية
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/07.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>كمبوند بلو فيرت العاصمة الادارية</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            الحي السكني السابع
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/03.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>مشروع الحى اللاتينى</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            العلمين الجديدة
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/04.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>مراسي الساحل الشمالي</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            سيدي عبد الرحمن
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/05.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>كمبوند ازادير</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            التجمع الخامس
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                            <div class="project-card">
+
+                                <a href="projects/one-project.html">
+                                    <div class="project-card-inner">
+                                        <figure style="background-image: url(assets/images/06.jpg);"></figure>
+                                    </div>
+
+                                    <div class="project-card-info">
+                                        <h3>بالم هيلز</h3>
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995L16.9497 15.9497ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                                </path>
+                                            </svg>
+                                            الاسكندرية
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="offers">
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>
+                        آخر
+                        <span>العروض</span>
+                    </h2>
+                    <p class="header-text">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع
+                        النصوص النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع</p>
+                </div>
+
+                <div class="offers-container">
+                    <div class="row p-3">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="offer-card">
+
+                                <a href="offers/one-offer.html">
+                                    <div class="offer-head">
+
+                                        <div class="offer-head-item">
+                                            <figure style="background-image: url(assets/images/01.jpg);"></figure>
+                                        </div>
+
+                                        <div class="offer-head-item">
+                                            <div class="offer-head-item-info">
+                                                <span class="pretitle">الحي السكني السابع</span>
+                                                <p class="offer-title">كمبوند بلو فيرت العاصمة الادارية</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="offer-action">
+                                        <div class="enter">أسعار تبدأ من 250.000 الف جنية</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="offer-card">
+
+                                <a href="offers/one-offer.html">
+                                    <div class="offer-head">
+
+                                        <div class="offer-head-item">
+                                            <figure style="background-image: url(assets/images/03.jpg);"></figure>
+                                        </div>
+
+                                        <div class="offer-head-item">
+                                            <div class="offer-head-item-info">
+                                                <span class="pretitle">الحي السكني السابع</span>
+                                                <p class="offer-title">كمبوند بلو فيرت العاصمة الادارية</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="offer-action">
+                                        <div class="enter">أسعار تبدأ من 250.000 الف جنية</div>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="offer-card">
+
+                                <a href="offers/one-offer.html">
+                                    <div class="offer-head">
+
+                                        <div class="offer-head-item">
+                                            <figure style="background-image: url(assets/images/05.jpg);"></figure>
+                                        </div>
+
+                                        <div class="offer-head-item">
+                                            <div class="offer-head-item-info">
+                                                <span class="pretitle">الحي السكني السابع</span>
+                                                <p class="offer-title">كمبوند بلو فيرت العاصمة الادارية</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="offer-action">
+                                        <div class="enter">أسعار تبدأ من 250.000 الف جنية</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="offer-card">
+
+                                <a href="offers/one-offer.html">
+                                    <div class="offer-head">
+
+                                        <div class="offer-head-item">
+                                            <figure style="background-image: url(assets/images/06.jpg);"></figure>
+                                        </div>
+
+                                        <div class="offer-head-item">
+                                            <div class="offer-head-item-info">
+                                                <span class="pretitle">الحي السكني السابع</span>
+                                                <p class="offer-title">كمبوند بلو فيرت العاصمة الادارية</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="offer-action">
+                                        <div class="enter">أسعار تبدأ من 250.000 الف جنية</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <div class="container">
+
+                <div class="newsletter-container">
+
+                    <!-- <div class="newsletter-img">
+                <img src="assets/images/header.png" alt="">
+            </div> -->
+
+                    <div class="newsletter-info">
+                        <h3>كن على اطلاع بكل ما هو جديد</h3>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="أكتب بريدك الإلكترونى">
+                                <button type="submit" class="btn-newsletter">اشترك</button>
+                                </input>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="container">
+
+                <div class="section-header-side">
+
+                    <div class="section-header-content">
+                        <h2>
+                            آحدث
+                            <span>الأخبار</span>
+                        </h2>
+                        <p class="header-text">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم
+                            وضع النصوص النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم</p>
+                    </div>
+
+                    <div class="section-header-actions">
+                        <a href="news/news.html" class="btn-fill">عرض كل الأخبار</a>
+                    </div>
+
+                </div>
+
+                <div class="news-container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="news-card">
+
+                                <a href="news/one-news.html">
+                                    <div class="news-image">
+                                        <figure style="background-image: url(assets/images/002.jpg)"></figure>
+                                    </div>
+
+                                    <div class="news-info">
+                                        <h3>مقارنة تفصيلية بين دي جويا ٣ و مشروع بلو فيرت العاصمة الادارية</h3>
+                                        <p>الاستثمار السكني في العاصمة الادارية تتوفر أفضل فرص الاستثمار حاليا في
+                                            العاصمة الادارية الجيدة ، خاصة مع الاهتمام الكبير الذي توليه الحكومة بهذا
+                                            المشروع القومي، ولكن لا يعرف الكثيرون كيف يستفيدوا من هذه الفرص الاستثمارية
+                                        </p>
+                                        <!-- <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"></path></svg>
+                                </div> -->
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="news-card">
+
+                                <a href="news/one-news.html">
+                                    <div class="news-image">
+                                        <figure style="background-image: url(assets/images/003.jpg)"></figure>
+                                    </div>
+
+                                    <div class="news-info">
+                                        <h3>٦ معلومات عن شارع التسعين لو حتسكن في التجمع الخامس</h3>
+                                        <p>شارع التسعين شارع التسعين بالتجمع الخامس في القاهرة الجديدة مقصد كل من أراد
+                                            التنزه والترفيه عن نفسه مع العائلة والأصدقاء لانه بكل حيادية يحتوي على
+                                            العديد من المميزات التي تجعله هدفا لمن اراد تغيير وحدته السكنية أو حتى</p>
+                                        <!-- <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"></path></svg>
+                                </div> -->
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="news-card">
+
+                                <a href="news/one-news.html">
+                                    <div class="news-image">
+                                        <figure style="background-image: url(assets/images/004.jpg)"></figure>
+                                    </div>
+
+                                    <div class="news-info">
+                                        <h3>اسعار كمبوندات العاصمة الإدارية الجديدة</h3>
+                                        <p>اسعار كمبوندات العاصمة الإدارية الجديدة الكمبوند المنطقة سعر المتر اسعار تبدا
+                                            من مشروع چنوب منطقة r7 10,000 1,500,000 جنيه كابيتال هايتس منطقة r7 10,000
+                                            1,414,500 جنيه سيناريو منطقة</p>
+                                        <!-- <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"></path></svg>
+                                </div> -->
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---- [ End Content ] ---- -->
+
+
+    <!-- ---- [ Start Footer ] ---- -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-r p-0">
+                    <div class="footer-col">
+                        <h3 class="Footer-head"><a href="index.html" class="footer-logo"><img
+                                    src="assets/images/logo4.png" alt=""> </a></h3>
+                        <p class="footer-address">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم
+                            ويتم وضع النصوص النهائية ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع
+                        </p>
+                        <div class="social-links">
+                            <a href="#0" class="links">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z" />
+                                </svg>
+                            </a>
+                            <a href="#0" class="links">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z" />
+                                </svg>
+                            </a>
+                            <a href="#0" class="links">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+                                </svg>
+                            </a>
+                            <a href="#0" class="links">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z" />
+                                </svg>
+                            </a>
+                            <a href="#0" class="links">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-3 col-md-6 text-center col-r p-0">
+                    <div class="footer-col">
+                        <h3 class="Footer-head"><a href="#">تواصل معنا</a></h3>
+                        <ul class="list-unstyled">
+                            <li class="font-en"><span>العنوان : </span>عند موافقه العميل المبدئيه على التصميم يتم ازالة
+                                هذا النص من التصميم</li>
+                            <li class="font-en"><span>موبايل : </span>01007056732</li>
+                            <li class="font-en"><span>الخط الساخن : </span>01007056732</li>
+                            <li class="font-en"><span>الايميل : </span>info@gs.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 text-center col-r p-0">
+                    <div class="footer-col">
+                        <h3 class="Footer-head"><a href="#">اللينكات الرئيسية</a></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">الرئيسية</a></li>
+                            <li><a href="about/about.html">من نحن</a></li>
+                            <li><a href="#">الأقسام</a></li>
+                            <li><a href="projects/projects.html">المشاريع</a></li>
+                            <li><a href="offers/offers.html">العروض</a></li>
+                            <li><a href="news/news.html">الأخبار</a></li>
+                            <li><a href="contact/contact.html">تواصل معنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <p class="copy">© <span class="font-en"> 2023 </span> جميع الحقوق محفوظة</p>
+
+                    <h6 class="menamedia">تم تطويرة بواسطة <a href="https://www.menamedia.io">MENAMEDIA</a></h6>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ---- [ End Footer ] ---- -->
+
+
+    <!-- Main Scripts -->
+    <script src="assets/js/libs/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/libs/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Addition Scripts -->
+
+    <!-- Initialize Swiper -->
+    <!-- <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 12,
+    loop: true,
+    autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        250: {
+            slidesPerView: 1
+        },
+        475: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        992: {
+            slidesPerView: 4
+        },
+        1200: {
+            slidesPerView: 5
+        }
+    }
+  });
+</script> -->
+
+
+</body>
+
+</html>

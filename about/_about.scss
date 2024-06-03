@@ -1,0 +1,145 @@
+.about-page {
+    .upper-about {
+        padding: 50px 0 0 0;
+        .row {
+            padding: 10px 0;
+        }
+        .upper-row-text {
+            h5 {
+                font-size: 2.5rem;
+                @media (max-width: $max-5) {
+                    font-size:1.7rem;
+                }
+                span {
+                    color: $mainColor;
+                }
+            }
+            p {
+                margin-bottom: 0;
+                font-weight: 400;
+                color: #7e868e;
+                margin-bottom: 5px;
+                @media (max-width: $max-5) {
+                    font-size:0.9rem;
+                }
+                span {
+                    color: #005b4c;
+                    font-weight: 500;
+                    font-size: 1.1rem;
+                    background: #005b4c14;
+                    padding: 3px 12px;
+                    display: inline-block;
+                    border-radius: 0;
+                }
+            }
+        }
+        .upper-row-feat {
+            padding: 50px 0 0 0;  
+            .feat-card {
+                transform-style: preserve-3d;
+                transform: perspective(500px) rotateY(-5deg);  
+                border-radius: 20px;
+                margin-bottom: 15px;
+                @media (max-width: $max-9) {
+                    transform: unset;
+                }
+                h3 {
+                    font-size: 1.6rem;
+                    transform: perspective(500px) rotateY(-5deg);
+                    border-radius: 20px;
+                    margin: 0;
+                    background: linear-gradient(45deg, #f2fffc, #edf3ff);
+                    padding: 25px 15px;
+                    text-align: center;
+                    @media (max-width: $max-9) {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    .about {
+        .about-more-info {
+            padding-left: 50px;
+        }
+    }
+    .numbers {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        .numbers-content {
+            background: #131723;
+            border-radius: 20px;
+            padding: 35px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            @media (max-width: $max-5) {
+                display: block;
+                padding: 25px 25px;
+             }
+            .num-card {
+                text-align: center;
+                width: 100%;
+                border-right: 1px solid #303948;
+                @media (max-width: $max-5) {
+                    margin: 20px 0px;
+                    border-right: unset;
+                 }
+                h3 {
+                    font-size: 2rem;
+                    color: #FFF;
+                    margin-bottom: 0;
+                }
+                span {
+                    color: #bbc1cf;
+                    font-size: 0.9rem;
+                }
+            }
+            .num-card:first-child {
+                border: 1px solid transparent;
+            }
+        }
+    }
+    .about-image {
+        .about-img-image {
+            figure {
+                background: {
+                    size: cover;
+                    position: center center;
+                    repeat: no-repeat;
+                }
+                max-width: 100%;
+                margin: 10px 0;
+                border-radius: 20px;
+            }
+            .h-f {
+                height: 275px;
+            }
+            .h-s {
+                height: 400px;
+            }
+        }
+    }
+}
+.ov {
+    overflow: visible !important;
+}
+[lang="en"] {
+    .about-page {
+        .about {
+            .about-more-info {
+                padding-left: unset;
+                padding-right: 50px;
+            }
+        }
+        .numbers {
+
+            .numbers-content {
+                .num-card {
+                    border-right: 1px solid transparent;
+                    border-left: 1px solid #303948;
+                }
+            }
+        }
+    }
+}

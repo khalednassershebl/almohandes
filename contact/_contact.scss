@@ -1,0 +1,37 @@
+.contact-page {
+    .contact {
+        padding: 75px 0 25px 0;
+        .contact-container {
+            margin-top: 50px;
+            .form-group {
+                margin: 6px 0;
+                label {
+                    font-weight: 900;
+                    padding-left: 7px;
+                }
+                .form-control {
+                    text-indent: 1px;
+                    background: #f8f9ff87;
+                    border: 1px solid #e0e0eb;
+                    padding: 8px 15px;
+                    border-radius: 10px;
+                    height: 55px;
+                    &:focus {
+                        border-color: #005b4c;
+                    }
+                    &::placeholder {
+                        font-weight: 500;
+                        color: #9193af;
+                    }
+                }
+                textarea {
+                    height: 250px !important;
+                    padding: 20px !important;
+                }
+            }
+        }
+        .col-md-6, .col-md-12 {
+            padding: 0 6px;
+        }
+    }
+}
