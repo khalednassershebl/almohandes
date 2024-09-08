@@ -204,7 +204,7 @@
                     transform: perspective(500px) rotateY(-5deg);
                     border-radius: 12px;
                     margin: 0;
-                    background: linear-gradient(45deg, #FFEECA, #005B4C);
+                    background: linear-gradient(45deg, #FFEECA, #272727);
                     padding: 10px 17px;
                     text-align: center;
                     @media (max-width: $max-9) {
@@ -405,6 +405,7 @@
     position: relative;
     height: 65vh;
     overflow: hidden;
+    margin-top: 80px;
     @media (max-width: $max-9) {
         height: 350px;
     }
@@ -415,12 +416,12 @@
         z-index: -1;
         height: 100%;
         width: 100%;
-        background: linear-gradient(45deg,#f2fffc,#edf3ff);
+        background: linear-gradient(45deg, #FFEECA, #272727);
     }
     .overlay-img-right {
         height: 100%;
         width: 100%;
-        position: absolute;
+        position: absolute; 
         right: -75px;
         bottom: -50px;
         z-index: 10;
@@ -489,7 +490,7 @@
         h1 {
             text-transform: uppercase;
             font-size: 4.2rem;
-            color: #000;
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -498,7 +499,7 @@
                 display: block;
             }
             .gray-h1 {
-                color: #345a4c;
+                color: #FFEECA;
             }
             @media (max-width: $max-9) {
                 font-size: 3.5rem;
@@ -527,9 +528,9 @@
             }
           }
         p {
-            color: #7e868e;
+            color: #FFF;
             margin: 15px 0 0 0;
-            width: 45%;
+            width: 55%;
             font-size: 1rem;
             margin: 15px auto 0 auto;
             @media (max-width: $max-9) {
