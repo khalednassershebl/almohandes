@@ -1539,7 +1539,7 @@ body {
 }
 
 .about {
-  padding: 50px 0;
+  padding: 100px 0;
   position: relative;
 }
 .about .about-more-info p {
@@ -1582,198 +1582,21 @@ body {
   border-radius: 12px;
   font-size: 3.2rem;
 }
-.about .about-img {
-  position: relative;
+.about .about-img figure {
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  width: 100%;
   border-radius: 12px;
-  height: 525px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.about .about-img .about-img-bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  border-radius: 12px;
-  height: 250px;
-  width: 400px;
-  background: linear-gradient(-45deg, #FFEECA, #272727);
-}
-.about .about-img .about-img-1 {
-  position: absolute;
-  top: 37%;
-  left: 64%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: 2;
-  overflow: hidden;
-  height: 200px;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-.about .about-img .about-img-1 img {
-  height: 150%;
-  width: 150%;
-  border-radius: 20px;
-  transform: rotate(-45deg) scale(1);
-}
-.about .about-img .about-img-2 {
-  position: absolute;
-  top: 71%;
-  left: 49%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: 2;
-  overflow: hidden;
-  height: 200px;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-.about .about-img .about-img-2 img {
-  height: 150%;
-  width: 150%;
-  border-radius: 20px;
-  transform: rotate(-45deg) scale(1);
-}
-.about .about-img .about-img-3 {
-  position: absolute;
-  top: 65%;
-  left: 72%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: 2;
-  overflow: hidden;
-  height: 80px;
-  width: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-.about .about-img .about-img-3 img {
-  height: 150%;
-  width: 150%;
-  border-radius: 20px;
-  transform: rotate(-45deg) scale(1);
-}
-.about .about-img .about-img-4 {
-  position: absolute;
-  top: 59%;
-  left: 30%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: 2;
-  overflow: hidden;
-  height: 80px;
-  width: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-.about .about-img .about-img-4 img {
-  height: 150%;
-  width: 150%;
-  border-radius: 20px;
-  transform: rotate(-45deg) scale(1);
-}
-.about .about-img .about-img-5 {
-  position: absolute;
-  top: 41%;
-  left: 38%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  z-index: 2;
-  overflow: hidden;
-  height: 125px;
-  width: 125px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-.about .about-img .about-img-5 img {
-  height: 150%;
-  width: 150%;
-  border-radius: 20px;
-  transform: rotate(-45deg) scale(1);
-}
-.about .about-img .about-card-fly {
-  position: absolute;
-  top: 17%;
-  left: 32%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 12px;
-  background: #FFF;
-  padding: 10px 17px;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
-}
-.about .about-img .about-card-fly .icon {
-  background: #fffbd7;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 40px;
-}
-.about .about-img .about-card-fly .icon svg {
-  fill: #ffe500;
-  height: 22px;
-}
-.about .about-img .about-card-fly .about-card-fly-info {
-  margin-right: 15px;
-}
-.about .about-img .about-card-fly .about-card-fly-info h6 {
-  margin-bottom: -5px;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-.about .about-img .about-card-fly .about-card-fly-info span {
-  font-size: 0.9rem;
-}
-.about .about-img .about-card-fly2 {
-  position: absolute;
-  top: 83%;
-  left: 74%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 12px;
-  background: #FFF;
-  padding: 10px 17px;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
-}
-.about .about-img .about-card-fly2 .icon {
-  background: #eeedf6;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 40px;
-}
-.about .about-img .about-card-fly2 .icon svg {
-  fill: #272727;
-  height: 22px;
-}
-.about .about-img .about-card-fly2 .about-card-fly-info {
-  margin-right: 15px;
-}
-.about .about-img .about-card-fly2 .about-card-fly-info h6 {
-  margin-bottom: -5px;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-.about .about-img .about-card-fly2 .about-card-fly-info span {
-  font-size: 0.9rem;
+@media (max-width: 991.98px) {
+  .about .about-img figure {
+    margin-top: 25px;
+    height: 300px;
+  }
 }
 
 .numbers {
