@@ -374,7 +374,7 @@ p.text a {
   transform: perspective(500px) rotateY(-5deg);
   border-radius: 12px;
   margin: 0;
-  background: linear-gradient(45deg, #FFEECA, #005B4C);
+  background: linear-gradient(45deg, #FFEECA, #272727);
   padding: 10px 17px;
   text-align: center;
 }
@@ -583,6 +583,7 @@ p.text a {
   position: relative;
   height: 65vh;
   overflow: hidden;
+  margin-top: 80px;
 }
 @media (max-width: 991.98px) {
   .header {
@@ -596,7 +597,7 @@ p.text a {
   z-index: -1;
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, #f2fffc, #edf3ff);
+  background: linear-gradient(45deg, #FFEECA, #272727);
 }
 .header .overlay-img-right {
   height: 100%;
@@ -677,7 +678,7 @@ p.text a {
 .header .header-content h1 {
   text-transform: uppercase;
   font-size: 4.2rem;
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -687,7 +688,7 @@ p.text a {
   display: block;
 }
 .header .header-content h1 .gray-h1 {
-  color: #345a4c;
+  color: #FFEECA;
 }
 @media (max-width: 991.98px) {
   .header .header-content h1 {
@@ -721,9 +722,9 @@ p.text a {
   display: inline-block;
 }
 .header .header-content p {
-  color: #7e868e;
+  color: #FFF;
   margin: 15px 0 0 0;
-  width: 45%;
+  width: 55%;
   font-size: 1rem;
   margin: 15px auto 0 auto;
 }
@@ -973,7 +974,13 @@ p.text a {
   }
 }
 .about-page .upper-about .upper-row-text h5 span {
-  color: #005b4c;
+  color: #272727;
+  font-weight: 500;
+  padding: 0 13px;
+  height: 73px;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 3rem;
 }
 .about-page .upper-about .upper-row-text p {
   margin-bottom: 0;
@@ -1014,9 +1021,10 @@ p.text a {
   transform: perspective(500px) rotateY(-5deg);
   border-radius: 20px;
   margin: 0;
-  background: linear-gradient(45deg, #f2fffc, #edf3ff);
   padding: 25px 15px;
   text-align: center;
+  background: #f6ebc9;
+  color: #272727;
 }
 @media (max-width: 991.98px) {
   .about-page .upper-about .upper-row-feat .feat-card h3 {
@@ -1031,7 +1039,7 @@ p.text a {
   padding-bottom: 25px;
 }
 .about-page .numbers .numbers-content {
-  background: #131723;
+  background: linear-gradient(-15deg, rgb(39, 39, 39), rgb(39, 39, 39));
   border-radius: 20px;
   padding: 35px 20px;
   display: flex;
@@ -1200,8 +1208,8 @@ body {
 }
 
 .btn-fill {
-  border: 2px solid #345a4c;
-  background: #345a4c;
+  border: 2px solid #272727;
+  background: #272727;
   text-decoration: none;
   color: #FFF;
   padding: 12px 35px 12px 35px;
@@ -1272,8 +1280,14 @@ body {
   }
 }
 .section-header h2 span {
-  color: #345a4c;
+  color: #f6ebc9;
   font-weight: 500;
+  background: #272727;
+  padding: 0 13px;
+  height: 73px;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 3.2rem;
 }
 .section-header .header-text {
   width: 50%;
@@ -1336,8 +1350,14 @@ body {
   }
 }
 .section-header-side h2 span {
-  color: #345a4c;
+  color: #f6ebc9;
   font-weight: 500;
+  background: #272727;
+  padding: 0 13px;
+  height: 73px;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 3.2rem;
 }
 .section-header-side .header-text {
   width: 547px;
@@ -1386,7 +1406,7 @@ body {
   z-index: -1;
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, #FFEECA, #005B4C);
+  background: linear-gradient(45deg, #FFEECA, #272727);
 }
 .home-header .header-content {
   text-align: right;
@@ -1529,10 +1549,10 @@ body {
   margin-bottom: 5px;
 }
 .about .about-more-info p span {
-  color: #345a4c;
+  color: #272727;
   font-weight: 500;
   font-size: 1.1rem;
-  background: rgba(52, 90, 76, 0.0784313725);
+  background: #f6ebc9;
   padding: 3px 12px;
   display: inline-block;
   border-radius: 0;
@@ -1553,8 +1573,14 @@ body {
   }
 }
 .about .about-more-info h2 span {
-  color: #345a4c;
+  color: #f6ebc9;
   font-weight: 500;
+  background: #272727;
+  padding: 0 13px;
+  height: 73px;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 3.2rem;
 }
 .about .about-img {
   position: relative;
@@ -1569,7 +1595,7 @@ body {
   border-radius: 12px;
   height: 250px;
   width: 400px;
-  background: linear-gradient(-45deg, #FFEECA, #005B4C);
+  background: linear-gradient(-45deg, #FFEECA, #272727);
 }
 .about .about-img .about-img-1 {
   position: absolute;
@@ -1735,7 +1761,7 @@ body {
   width: 40px;
 }
 .about .about-img .about-card-fly2 .icon svg {
-  fill: #345a4c;
+  fill: #272727;
   height: 22px;
 }
 .about .about-img .about-card-fly2 .about-card-fly-info {
@@ -1762,7 +1788,7 @@ body {
 }
 .numbers .numbers-content {
   background: #131723;
-  background: linear-gradient(-15deg, rgb(39, 39, 39), rgb(0, 91, 76));
+  background: linear-gradient(-15deg, rgb(39, 39, 39), rgb(39, 39, 39));
   border-radius: 20px;
   padding: 50px 25px;
   display: flex;
@@ -1778,7 +1804,7 @@ body {
 .numbers .numbers-content .num-card {
   text-align: center;
   width: 100%;
-  border-right: 1px solid #FFF;
+  border-right: 1px solid #3b3b3b;
 }
 @media (max-width: 575.98px) {
   .numbers .numbers-content .num-card {
@@ -1818,6 +1844,7 @@ body {
 }
 .sections .sections-container .partner-card img {
   max-width: 100%;
+  height: 45px;
   filter: grayscale(1);
 }
 
@@ -2004,15 +2031,15 @@ body {
   border: 1px solid transparent;
 }
 .newsletter .newsletter-container .newsletter-info .form-group .form-control:focus {
-  border: 1px solid #345a4c;
+  border: 1px solid #272727;
 }
 .newsletter .newsletter-container .newsletter-info .form-group .btn-newsletter {
   position: absolute;
   left: 5px;
   top: 50%;
   transform: translate(0, -50%);
-  border: 2px solid #345a4c;
-  background: #345a4c;
+  border: 2px solid #272727;
+  background: #272727;
   text-decoration: none;
   color: #FFF;
   padding: 7px 25px;
@@ -2249,8 +2276,8 @@ body {
   }
 }
 [lang=en] .home-header .header-content .btn-fill {
-  border: 2px solid #345a4c;
-  background: #345a4c;
+  border: 2px solid #272727;
+  background: #272727;
   text-decoration: none;
   color: #FFF;
   padding: 12px 35px 12px 35px;
@@ -2350,7 +2377,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #005B4C;
+  background: #272727;
 }
 
 /* Handle on hover */

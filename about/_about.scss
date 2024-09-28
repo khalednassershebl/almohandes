@@ -11,7 +11,13 @@
                     font-size:1.7rem;
                 }
                 span {
-                    color: $mainColor;
+                    color: #272727;
+                    font-weight: 500;
+                    padding: 0 13px;
+                    height: 73px;
+                    display: inline-block;
+                    border-radius: 12px;
+                    font-size: 3rem;
                 }
             }
             p {
@@ -48,9 +54,10 @@
                     transform: perspective(500px) rotateY(-5deg);
                     border-radius: 20px;
                     margin: 0;
-                    background: linear-gradient(45deg, #f2fffc, #edf3ff);
                     padding: 25px 15px;
                     text-align: center;
+                    background: #f6ebc9;
+                    color: #272727;
                     @media (max-width: $max-9) {
                         font-size: 1.3rem;
                     }
@@ -67,7 +74,7 @@
         padding-top: 25px;
         padding-bottom: 25px;
         .numbers-content {
-            background: #131723;
+            background: linear-gradient(-15deg, rgb(39, 39, 39), rgb(39, 39, 39));
             border-radius: 20px;
             padding: 35px 20px;
             display: flex;
